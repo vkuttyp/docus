@@ -1,0 +1,22 @@
+# name: Deploy to Server
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Checkout code
+#       uses: actions/checkout@v2
+
+#     - name: Deploy files via rsync
+#       uses: D3rHase/rsync-deploy-action@latest
+#       with:
+#         HOST: ${{ secrets.AW_HOST }}
+#         USER: ${{ secrets.USER }}
+#         PRIVATE_SSH_KEY: ${{ secrets.AW_SSH_PRIVATE_KEY }}
+#         REPOSITORY_PATH: './docus/*'
+#         SERVER_PATH: '/data/websites/'
