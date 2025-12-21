@@ -20,9 +20,9 @@ logs
 .eslintcache
 
 # Local env files
-.env
-.env.*
-!.env.example
+# .env
+# .env.*
+# !.env.example
 
 # Template
 template/pnpm-lock.yaml
