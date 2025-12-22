@@ -32,10 +32,11 @@ export default defineNuxtConfig({
   studio: {
     route: '/admin',
     repository: {
-      owner: 'nuxt-content',
+      owner: 'vkuttyp',
       repo: 'docus',
       branch: 'main',
       rootDir: 'docs',
+      provider: 'github',
     },
   },
 })
