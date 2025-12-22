@@ -9,7 +9,7 @@ seo:
 Write beautiful docs with Markdown.
 
 #description
-After fixing the git 5th time . Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. :br Docus brings the best of the Nuxt ecosystem.
+After fixing the git 6th time . Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. :br Docus brings the best of the Nuxt ecosystem.
 
 #links
   :::u-button
