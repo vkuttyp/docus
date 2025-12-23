@@ -24,13 +24,11 @@ export default defineNuxtModule({
 
       if (isI18nEnabled) {
         // Add a catch-all root redirect for i18n
+        const defaultLocale = (nuxt.options.i18n as any)?.defaultLocale || 'en'
         pages.push({
           name: 'index-redirect',
           path: '/',
-          redirect: () => {
-            const defaultLocale = (nuxt.options.i18n as any)?.defaultLocale || 'en'
-            return `/${defaultLocale}`
-          },
+          redirect: `/${defaultLocale}`,
         })
       }
       else {
