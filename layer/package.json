@@ -1,7 +1,7 @@
 {
-  "name": "@vkuttyp/docus",
+  "name": "@murshisoft/docus",
   "description": "Nuxt layer for Docus documentation theme",
-  "version": "5.5.2",
+  "version": "1.0.0",
   "type": "module",
   "main": "./nuxt.config.ts",
   "repository": {
