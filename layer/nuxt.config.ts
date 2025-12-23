@@ -14,6 +14,25 @@ export default defineNuxtConfig({
     '@nuxtjs/mcp-toolkit',
     'nuxt-og-image',
     'nuxt-llms',
+    () => {
+      extendViteConfig((config) => {
+        config.optimizeDeps ||= {}
+        config.optimizeDeps.exclude ||= []
+        // Exclude server-side markdown processing dependencies
+        config.optimizeDeps.exclude.push(
+          '@nuxt/content > slugify',
+          '@nuxtjs/mdc > remark-gfm',
+          '@nuxtjs/mdc > remark-emoji',
+          '@nuxtjs/mdc > remark-mdc',
+          '@nuxtjs/mdc > remark-rehype',
+          '@nuxtjs/mdc > rehype-raw',
+          '@nuxtjs/mdc > parse5',
+          '@nuxtjs/mdc > unist-util-visit',
+          '@nuxtjs/mdc > unified',
+          '@nuxtjs/mdc > debug'
+        )
+      })
+    },
   ],
   devtools: {
     enabled: true,
