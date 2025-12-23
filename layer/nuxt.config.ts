@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         config.optimizeDeps.include ||= []
         config.optimizeDeps.include.push('@nuxt/content > slugify')
         config.optimizeDeps.include = config.optimizeDeps.include
-          .map(id => id.replace(/^@nuxt\/content > /, '@vkuttyp/docus > @nuxt/content > '))
+          .map(id => id.replace(/^@nuxt\/content > /, '@murshisoft/docus > @nuxt/content > '))
       })
     },
   ],
