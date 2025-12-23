@@ -11,7 +11,7 @@ const { locale, isEnabled } = useDocusI18n()
 
 const collectionName = computed(() => isEnabled.value ? `landing_${locale.value}` : 'landing')
 
-const { data: page } = await useAsyncData(route.path, () => queryCollection(collectionName.value as keyof Collections).path(route.path).first())
+const { data: page } = await useAsyncData(route.path, () => queryCollection(collectionName.value as keyof Collections).first())
 
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
