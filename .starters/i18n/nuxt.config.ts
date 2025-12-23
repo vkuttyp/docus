@@ -12,4 +12,7 @@ export default defineNuxtConfig({
       name: 'Français',
     }],
   },
+  llms: {
+    domain: 'http://localhost:3000',
+  },
 })
