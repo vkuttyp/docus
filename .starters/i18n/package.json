@@ -1,8 +1,8 @@
 {
   "name": "docus-starter",
   "scripts": {
-    "dev": "nuxt dev --extends @murshisoft/docus",
-    "build": "nuxt build --extends @murshisoft/docus",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
     "postinstall": "cd node_modules/.pnpm/better-sqlite3@*/node_modules/better-sqlite3 2>/dev/null && npm run build-release || true"
   },
   "dependencies": {
