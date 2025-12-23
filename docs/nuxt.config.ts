@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  extends: ['@vkuttyp/docus'],
+  extends: ['@murshisoft/docus'],
   modules: ['@nuxtjs/plausible', '@nuxtjs/i18n', 'nuxt-studio'],
   css: ['~/assets/css/main.css'],
   site: {
