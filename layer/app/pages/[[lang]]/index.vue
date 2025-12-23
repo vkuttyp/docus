@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ContentNavigationItem, Collections } from '@nuxt/content'
+import type { Collections } from '@nuxt/content'
 import { addPrerenderPath } from '../../utils/prerender'
 
 definePageMeta({
