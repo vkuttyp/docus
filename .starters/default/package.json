@@ -1,11 +1,11 @@
 {
   "name": "docus-starter",
   "scripts": {
-    "dev": "nuxt dev --extends @vkuttyp/docus",
-    "build": "nuxt build --extends @vkuttyp/docus"
+    "dev": "nuxt dev --extends @nuxtjs/docus",
+    "build": "nuxt build --extends @nuxtjs/docus"
   },
   "dependencies": {
-    "@vkuttyp/docus": "latest",
+    "@nuxtjs/docus": "latest",
     "better-sqlite3": "^12.2.0",
     "nuxt": "^4.1.2"
   }
