@@ -22,14 +22,9 @@ export default defineNuxtModule({
     extendPages((pages) => {
       const landingTemplate = resolve('../app/templates/landing.vue')
 
-      if (isI18nEnabled) {
-        pages.push({
-          name: 'lang-index',
-          path: '/:lang?',
-          file: landingTemplate,
-        })
-      }
-      else {
+      // Only add custom routes if i18n is not enabled
+      // When i18n is enabled, it handles routing itself
+      if (!isI18nEnabled) {
         pages.push({
           name: 'index',
           path: '/',
