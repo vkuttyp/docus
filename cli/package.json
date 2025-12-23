@@ -1,7 +1,7 @@
 {
-  "name": "@vkuttyp/create-docus",
+  "name": "@murshisoft/create-docus",
   "description": "CLI for creating Docus documentation projects",
-  "version": "5.5.1",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vkuttyp/docus.git"

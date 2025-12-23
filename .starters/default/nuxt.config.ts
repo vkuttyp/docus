@@ -1,4 +1,4 @@
 export default defineNuxtConfig({
-  extends: '@vkuttyp/docus',
+  extends: '@murshisoft/docus',
   compatibilityDate: '2025-01-01',
 })
