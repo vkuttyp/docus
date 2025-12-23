@@ -1,10 +1,10 @@
 {
-  "name": "create-docus",
+  "name": "@vkuttyp/create-docus",
   "description": "CLI for creating Docus documentation projects",
-  "version": "5.4.1",
+  "version": "5.4.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nuxt-content/docus.git"
+    "url": "git+https://github.com/vkuttyp/docus.git"
   },
   "private": false,
   "license": "MIT",
