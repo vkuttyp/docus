@@ -22,9 +22,18 @@ export default defineNuxtModule({
     extendPages((pages) => {
       const landingTemplate = resolve('../app/templates/landing.vue')
 
-      // Only add custom routes if i18n is not enabled
-      // When i18n is enabled, it handles routing itself
-      if (!isI18nEnabled) {
+      if (isI18nEnabled) {
+        // Add a catch-all root redirect for i18n
+        pages.push({
+          name: 'index-redirect',
+          path: '/',
+          redirect: () => {
+            const defaultLocale = (nuxt.options.i18n as any)?.defaultLocale || 'en'
+            return `/${defaultLocale}`
+          },
+        })
+      }
+      else {
         pages.push({
           name: 'index',
           path: '/',
