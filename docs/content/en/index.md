@@ -9,7 +9,7 @@ seo:
 Write beautiful docs with Markdown.
 
 #description
-After fixing issues with copilot. This from VSCode 2. Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. :br Docus brings the best of the Nuxt ecosystem.
+After fixing issues with copilot. This from VSCode 3. Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. :br Docus brings the best of the Nuxt ecosystem.
 
 #links
   :::u-button
