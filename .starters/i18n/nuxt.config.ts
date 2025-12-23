@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-01-01',
   modules: ['@nuxtjs/i18n'],
   i18n: {
+    strategy: 'prefix',
     defaultLocale: 'en',
     locales: [{
       code: 'en',
