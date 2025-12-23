@@ -1,38 +1,95 @@
 {
   
   "name": "docus-workspace",
+  
   "description": "Minimal Documentation theme and CLI for shared usage across Nuxt modules",
-  "version": "5.4.1",
+  
+  "version": "5.4.3",
+  
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nuxt-content/docus.git"
+  
+    
+  "type": "git",
+  
+    
+  "url": "git+https://github.com/vkuttyp/docus.git"
+  
   },
+  
   "private": true,
+  
   "license": "MIT",
+  
   "scripts": {
-    "dev": "pnpm run docs:dev",
-    "build": "pnpm run docs:build",
-    "docs:dev": "cd docs && nuxt dev --extends ../layer",
-    "docs:build": "nuxt build docs --extends ../layer",
-    "dev:prepare": "nuxt prepare layer && nuxt prepare docs --extends ../layer",
-    "lint": "eslint .",
-    "typecheck": "nuxt typecheck layer",
-    "verify": "pnpm run dev:prepare && pnpm run lint && pnpm run typecheck && pnpm run docs:build",
-    "layer:release": "release-it --config .release-it.layer.json && cd layer && npm publish",
-    "cli:release": "release-it --config .release-it.cli.json && cd cli && npm publish",
-    "release": "pnpm run layer:release && pnpm run cli:release && release-it"
+  
+    
+  "dev": "pnpm run docs:dev",
+  
+    
+  "build": "pnpm run docs:build",
+  
+    
+  "docs:dev": "cd docs && nuxt dev --extends ../layer",
+  
+    
+  "docs:build": "nuxt build docs --extends ../layer",
+  
+    
+  "dev:prepare": "nuxt prepare layer && nuxt prepare docs --extends ../layer",
+  
+    
+  "lint": "eslint .",
+  
+    
+  "typecheck": "nuxt typecheck layer",
+  
+    
+  "verify": "pnpm run dev:prepare && pnpm run lint && pnpm run typecheck && pnpm run docs:build",
+  
+    
+  "layer:release": "release-it --config .release-it.layer.json && cd layer && npm publish",
+  
+    
+  "cli:release": "release-it --config .release-it.cli.json && cd cli && npm publish",
+  
+    
+  "release": "pnpm run layer:release && pnpm run cli:release && release-it"
+  
   },
+  
   "devDependencies": {
-    "@nuxt/eslint": "^1.12.1",
-    "@nuxt/eslint-config": "^1.12.1",
-    "@release-it/bumper": "^7.0.5",
-    "@release-it/conventional-changelog": "^10.0.4",
-    "eslint": "^9.39.2",
-    "nuxt": "4.2.2",
-    "release-it": "^19.1.0",
-    "typescript": "^5.9.3",
-    "vue-tsc": "^3.1.8",
-    "vite": "8.0.0-beta.0"
+  
+    
+  "@nuxt/eslint": "^1.12.1",
+  
+    
+  "@nuxt/eslint-config": "^1.12.1",
+  
+    
+  "@release-it/bumper": "^7.0.5",
+  
+    
+  "@release-it/conventional-changelog": "^10.0.4",
+  
+    
+  "eslint": "^9.39.2",
+  
+    
+  "nuxt": "4.2.2",
+  
+    
+  "release-it": "^19.1.0",
+  
+    
+  "typescript": "^5.9.3",
+  
+    
+  "vue-tsc": "^3.1.8",
+  
+    
+  "vite": "8.0.0-beta.0"
+  
   },
+  
   "packageManager": "pnpm@10.26.1"
 }

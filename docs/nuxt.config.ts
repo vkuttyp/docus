@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  extends: ['docus'],
+  extends: ['@vkuttyp/docus'],
   modules: ['@nuxtjs/plausible', '@nuxtjs/i18n', 'nuxt-studio'],
   css: ['~/assets/css/main.css'],
   site: {
@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     }],
   },
   llms: {
-    domain: 'https://docus.dev',
+    domain: 'https://docus.iserveus.com',
     title: 'Docus',
     description: 'Write beautiful docs with Markdown.',
     full: {

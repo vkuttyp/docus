@@ -1,7 +1,7 @@
 {
   "name": "@vkuttyp/create-docus",
   "description": "CLI for creating Docus documentation projects",
-  "version": "5.4.3",
+  "version": "5.4.7",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vkuttyp/docus.git"
@@ -9,7 +9,8 @@
   "private": false,
   "license": "MIT",
   "bin": {
-    "create-docus": "dist/main.mjs"
+    "create-docus": "dist/main.mjs",
+    "@vkuttyp/create-docus": "dist/main.mjs"
   },
   "files": [
     "dist"
