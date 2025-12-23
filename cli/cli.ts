@@ -13,7 +13,7 @@ export function createCLI(opts: CLIOptions) {
         type: 'positional',
         description: 'Project directory',
         required: false,
-        default: 'docs',
+        default: '.',
       },
       template: {
         type: 'string',
