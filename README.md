@@ -56,8 +56,10 @@ Learn more on the [Docus documentation](https://docus.iserveus.com).
 
 Add the Docus MCP server to help you write your documentation faster with LLMs:
 
-[![Install MCP in Cursor](https://mcp-toolkit.nuxt.iserveus.com/mcp/badge.svg?url=https://docus.iserveus.com/mcp)](https://docus.iserveus.com/mcp/mcp/deeplink)
-[![Install MCP in VS Code](https://mcp-toolkit.nuxt.iserveus.com/mcp/badge.svg?ide=vscode&url=https://docus.iserveus.com/mcp)](https://docus.iserveus.com/mcp/mcp/deeplink?ide=vscode)
+[![Install MCP in Cursor](https://mcp-toolkit.nuxt.dev/mcp/badge.svg?url=https://docus.dev/mcp)](https://docus.dev/mcp/mcp/deeplink)
+[![Install MCP in VS Code](https://mcp-toolkit.nuxt.dev/mcp/badge.svg?ide=vscode&url=https://docus.dev/mcp)](https://docus.dev/mcp/mcp/deeplink?ide=vscode)
+
+stall MCP in VS Code](https://mcp-toolkit.nuxt.docus.dev/mcp/badge.svg?ide=vscode&url=https://docus.dev/mcp)](https://docus.dev/mcp/mcp/deeplink?ide=vscode)
 
 ## 📁 Project Structure
 

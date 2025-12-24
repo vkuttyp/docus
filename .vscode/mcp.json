@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "docus": {
+      "type": "http",
+      "url": "https://docus.iserveus.com/mcp"
+    }
+  }
+}

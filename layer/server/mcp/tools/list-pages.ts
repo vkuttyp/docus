@@ -30,7 +30,7 @@ OUTPUT: Returns a structured list with:
     const event = useEvent()
     const config = useRuntimeConfig(event).public
 
-    const siteUrl = import.meta.dev ? 'http://localhost:3000' : getRequestURL(event).origin
+    const siteUrl = import.meta.dev ? 'https://docus.iserveus.com' : getRequestURL(event).origin
     const availableLocales = getAvailableLocales(config)
     const collections = getCollectionsToQuery(locale, availableLocales)
 

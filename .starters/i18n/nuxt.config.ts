@@ -13,6 +13,6 @@ export default defineNuxtConfig({
     }],
   },
   llms: {
-    domain: 'http://localhost:3000',
+    domain: 'https://docus.iserveus.com',
   },
 })
