@@ -15,7 +15,7 @@
     "@vercel/speed-insights": "^1.3.1",
     "@murshisoft/docus": "workspace:*",
     "nuxt": "4.2.2",
-    "nuxt-studio": "1.0.0-beta.0",
+    "nuxt-studio": "1.0.0-beta.2",
     "tailwindcss": "^4.1.18",
     "unist-util-visit": "^5.0.0"
   }
